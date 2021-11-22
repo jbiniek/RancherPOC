@@ -48,14 +48,14 @@
 
   The following CLI tools and binaries are needed on a management workstation to setup and manage Rancher and Kubernetes:
 
-  * [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+* [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
 * [helm](https://helm.sh/docs/intro/install/)
   
   
 ### Networking
 
 - Application cluster nodes should be connected to the same VLAN and have unrestricted connectivity within the VLAN.  Network configuration in general must satisfy the following port/communication requirements:
-    - https://rancher.com/docs/rancher/v2.x/en/installation/requirements/ports
+  - https://rancher.com/docs/rancher/v2.x/en/installation/requirements/ports
 - It is recommended to disable `firewalld`, for details see [here](https://rancher.com/docs/rancher/v2.x/en/installation/resources/advanced/firewall/)
   - Rancher Management hosts can be connected to same or separate VLAN. In the latter case, the network loadbalancer endpoint must be reachable from the other VLAN.
   
@@ -173,4 +173,4 @@
   Examples:
   
   * https://github.com/puzzle/ansible-rancher
-* https://github.com/rancher/quickstart
+  * https://github.com/rancher/quickstart
