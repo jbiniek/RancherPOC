@@ -75,7 +75,6 @@
 - DNS entry for the Rancher management console endpoint pointing to the LB in front of the ingress controller
   
 
-![image-20200828153821299](/Users/bhofmann/Library/Application Support/typora-user-images/image-20200828153821299.png)
 
 #### Each Downstream Cluster
 
